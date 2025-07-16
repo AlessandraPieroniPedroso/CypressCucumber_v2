@@ -13,11 +13,31 @@ npm install
 npx cypress open
    ```
 
-## Estrutura sugerida
+## Estrutura E2E
 - `cypress/` - Testes e suporte do Cypress
 - `cypress/e2e/` - Features e steps
 - `cypress/support/` - Arquivos de suporte
 - `cypress.config.js` - Configuração do Cypress
 
 ## Objetivo
+
 Automatizar o fluxo de criação de novo usuário na página de login.
+
+## Testes de API
+O projeto também possui testes de API utilizando Cypress + Cucumber.
+
+### Estrutura dos testes de API
+- `cypress/servicoAPI/` - Features de API
+- `cypress/support/step_definitions_servico/` - Step definitions de API
+
+### Como rodar o teste de API
+Execute:
+```
+npx cypress run --spec "cypress/servicoAPI/realizarGetNaAPI.feature"
+```
+Ou rode todos os testes (UI e API):
+```
+npx cypress run
+```
+
+
