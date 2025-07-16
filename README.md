@@ -6,13 +6,13 @@ E teste de API, utilizando a URL https://api.trello.com/1/actions/592f11060f95a3
 ## Como rodar os testes
 
 1. Instale as dependências:
-     ```
-npm install
-   ```
-3. Execute o Cypress:
-   ```
-npx cypress open
-   ```
+    
+	npm install
+ 
+2. Execute o Cypress:
+   
+	npx cypress open
+ 
 
 ## Estrutura E2E
 - `cypress/` - Testes e suporte do Cypress
@@ -22,7 +22,8 @@ npx cypress open
 
 ## Objetivo
 
-Automatizar o fluxo de criação de novo usuário na página de login.
+Este projeto automatiza o teste de criação de novo usuário, login, adicionar produto ao carrinho e concluir a compra no site https://www.automationexercise.com/login utilizando Cypress, Cucumber e BDD.
+E teste de API, utilizando a URL https://api.trello.com/1/actions/592f11060f95a3d3d46a987a, realizando um GET para buscar o "name" na "list".
 
 ## Testes de API
 O projeto também possui testes de API utilizando Cypress + Cucumber.
