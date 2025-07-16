@@ -1,6 +1,7 @@
 # Cypress + Cucumber + BDD
 
-Este projeto automatiza o teste de criação de novo usuário no site https://www.automationexercise.com/login utilizando Cypress, Cucumber e BDD.
+Este projeto automatiza o teste de criação de novo usuário, login, adicionar produto ao carrinho e concluir a compra no site https://www.automationexercise.com/login utilizando Cypress, Cucumber e BDD.
+E teste de API, utilizando a URL https://api.trello.com/1/actions/592f11060f95a3d3d46a987a, realizando um GET para buscar o "name" na "list".
 
 ## Como rodar os testes
 
