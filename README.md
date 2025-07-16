@@ -5,8 +5,7 @@ E teste de API, utilizando a URL https://api.trello.com/1/actions/592f11060f95a3
 
 ## Como rodar os testes
 
-1. Instale as dependências:
-   ```
+1. Instale as dependências:   
 npm install
    ```
 2. Execute o Cypress:
